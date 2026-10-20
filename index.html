@@ -3,14 +3,251 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>L Hopkins</title>
-    
+    <title>L Hopkins · National long-jump champion, Xavier Gators #7</title>
+    <meta name="description" content="L Hopkins: 2025 USATF National Junior Olympic long-jump champion, Xavier Gators flag football #7, Class of 2030. Every result, sourced." />
+    <meta name="theme-color" content="#0034eb" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="L Hopkins, national champ" />
+    <meta property="og:description" content="2025 USATF Junior Olympic long-jump champion. Xavier Gators #7. Class of 2030." />
+    <meta property="og:image" content="https://lorneh12.github.io/l-hopkins-site/media/og.jpg" />
+    <meta property="og:image:alt" content="L Hopkins in her Xavier #7 jersey, holding a football out toward the camera." />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+    <link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600&display=swap" rel="stylesheet" />
+    <script>document.documentElement.classList.add('js');</script>
   </head>
   <body>
-    <main id="app">
-      <h1>L Hopkins</h1>
-      <p>New site in progress.</p>
+    <a class="skip" href="#main">Skip to the results</a>
+
+    <main id="main">
+      <!-- Hero: the name split to two corners; the page passes between the halves -->
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero__pinwrap">
+          <div class="hero__pin">
+            <h1 class="hero__name" id="hero-title">
+              <span class="hero__first">L</span>
+              <span class="hero__last">Hopkins</span>
+            </h1>
+          </div>
+        </div>
+
+        <div class="hero__screen hero__screen--first">
+          <figure class="hero__portrait">
+            <img src="media/hero-portrait.webp" width="1000" height="1800" alt="L Hopkins holding up the front of her Xavier Gators jersey, number 7." fetchpriority="high" />
+          </figure>
+          <div class="hero__intro">
+            <p class="hero__lead">The 2025 USATF Junior Olympic long-jump champion. Xavier Gators #7, Class of 2030. Here is the file.</p>
+            <a class="button" href="#contact">Contact the family</a>
+          </div>
+          <nav class="hero__links" aria-label="Sections">
+            <a href="#results">Results</a>
+            <a href="#football">Football</a>
+            <a href="#film">Film</a>
+          </nav>
+        </div>
+
+        <figure class="hero__screen hero__panel hero__panel--wide">
+          <div class="hero__media">
+            <video data-loop data-loop-end="31.4" muted playsinline loop preload="metadata" poster="media/montage-poster.jpg" aria-label="Highlights: Xavier flag football at night and sprint races at the Phoenix Invitational and New Balance Nationals Indoor.">
+              <source src="media/montage.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <figcaption class="hero__caption">Thirty seconds of the case: flag football under the lights, then out of the blocks at the Phoenix Invitational and New Balance Nationals Indoor.</figcaption>
+        </figure>
+
+      </section>
+
+      <header class="nav">
+        <a class="nav__mark" href="#top">L Hopkins</a>
+        <nav class="nav__links" aria-label="Sections, repeated">
+          <a href="#results">Results</a>
+          <a href="#football">Football</a>
+          <a href="#film">Film</a>
+        </nav>
+        <a class="button button--small" href="#contact">Contact the family</a>
+      </header>
+
+      <!-- Proof: the meets, running off both edges -->
+      <section class="meets" aria-labelledby="meets-title">
+        <div class="meets__band">
+          <div class="meets__track">
+            <p class="meets__line">USATF National Junior Olympics<span class="dot"></span>Nike Outdoor Nationals<span class="dot"></span>New Balance Nationals Indoor<span class="dot"></span>Arizona Junior Olympics<span class="dot"></span>Pioneer Meet<span class="dot"></span></p>
+            <p class="meets__line" aria-hidden="true">USATF National Junior Olympics<span class="dot"></span>Nike Outdoor Nationals<span class="dot"></span>New Balance Nationals Indoor<span class="dot"></span>Arizona Junior Olympics<span class="dot"></span>Pioneer Meet<span class="dot"></span></p>
+          </div>
+        </div>
+        <h2 class="meets__title wrap" id="meets-title" data-reveal>Five meets, 2025 to 2026. Check the results sheets: her name sits at or near the top of every one.</h2>
+      </section>
+
+      <!-- The figure -->
+      <section class="figure" aria-labelledby="figure-title">
+        <h2 class="figure__claim" id="figure-title" data-reveal>National champion, long jump</h2>
+        <div class="figure__foot">
+          <div>
+            <p class="figure__number" data-reveal>5.17<sup>m</sup></p>
+            <p class="figure__caption" data-reveal>Her winning jump in the girls 13–14 final at the 2025 USATF National Junior Olympics, July 25, 2025. Nobody in the field went farther.</p>
+          </div>
+          <a class="figure__source link" href="https://results.adkinstrak.com/meets/54731/events/individual/2109552" target="_blank" rel="noopener">Official result</a>
+        </div>
+      </section>
+
+      <!-- The live thing: lay the jump out at your own height -->
+      <section class="measure" aria-labelledby="measure-title">
+        <div class="measure__text">
+          <h2 class="measure__title" id="measure-title" data-reveal>Lie down in the pit</h2>
+          <p class="measure__lead" data-reveal>Put in your height. We will lay you out end to end in the sand, from the board to her mark, and count how many of you it takes to cover 5.17 metres.</p>
+          <form class="measure__form" data-measure-form>
+            <label class="measure__label" for="height">Your height, in centimetres</label>
+            <div class="measure__row">
+              <input class="measure__range" id="height" name="height" type="range" min="100" max="210" step="1" value="165" />
+              <output class="measure__value" for="height" data-height-out>165 cm</output>
+            </div>
+            <p class="measure__result" aria-live="polite" data-measure-result>At 165 cm, it takes <strong>3.1 of you</strong>, head to toe, to reach her mark.</p>
+          </form>
+        </div>
+        <div class="measure__pit" data-pit>
+          <p class="measure__fallback">5.17 metres is 16 feet 11.5 inches: longer than most family cars, and a jump L made in the national final at thirteen.</p>
+        </div>
+      </section>
+
+      <!-- The results sheet -->
+      <section class="results" id="results" aria-labelledby="results-title">
+        <h2 class="results__title wrap" id="results-title" data-reveal>The results sheet</h2>
+        <div class="results__table">
+          <table>
+            <caption class="visually-hidden">Selected results and rankings for L Hopkins, 2025 to 2026, each linked to its official source.</caption>
+            <thead class="visually-hidden">
+              <tr><th scope="col">Event</th><th scope="col">Meet or ranking</th><th scope="col">Place</th><th scope="col">Mark</th></tr>
+            </thead>
+            <tbody>
+              <tr class="results__year"><th colspan="4" scope="rowgroup">2026</th></tr>
+              <tr><td>100 m</td><td>Arizona middle-school girls, final list</td><td>Ranked 1st</td><td><a class="link" href="https://az.milesplit.com/articles/708623" target="_blank" rel="noopener">12.08</a></td></tr>
+              <tr><td>100 m</td><td>Nike Outdoor Nationals final</td><td>4th</td><td><a class="link" href="https://live.athletictiming.net/meets/74712/events/individual/2836029" target="_blank" rel="noopener">12.08</a></td></tr>
+              <tr><td>100 m</td><td>USATF Region 10, girls 13–14</td><td>Ranked 1st</td><td><a class="link" href="https://www.athletic.net/TrackAndField/rankings/list/168009/f/100m?ages=13,14" target="_blank" rel="noopener">12.08</a></td></tr>
+              <tr><td>200 m</td><td>USATF Arizona Junior Olympics</td><td>1st</td><td><a class="link" href="https://live.athletic.net/meets/74867/events/individual/2818609" target="_blank" rel="noopener">25.58</a></td></tr>
+              <tr><td>Long jump</td><td>Arizona middle-school girls list</td><td>Ranked 1st</td><td><a class="link" href="https://az.milesplit.com/articles/704755" target="_blank" rel="noopener">17′ 11.5″</a></td></tr>
+              <tr><td>60 m</td><td>New Balance Nationals Indoor</td><td>3rd</td><td><a class="link" href="https://flashresults.com/2026_Meets/Indoor/03-12_NBIN/701-2_compiled.htm" target="_blank" rel="noopener">7.59</a></td></tr>
+              <tr><td>Long jump</td><td>New Balance Nationals Indoor</td><td>3rd</td><td><a class="link" href="https://flashresults.com/2026_Meets/Indoor/03-12_NBIN/723-1_compiled.htm" target="_blank" rel="noopener">5.28 m</a></td></tr>
+              <tr class="results__year"><th colspan="4" scope="rowgroup">2025</th></tr>
+              <tr><td>Long jump</td><td>USATF National Junior Olympics</td><td>1st</td><td><a class="link" href="https://results.adkinstrak.com/meets/54731/events/individual/2109552" target="_blank" rel="noopener">5.17 m</a></td></tr>
+              <tr><td>100 m</td><td>Nike Outdoor Nationals final</td><td>3rd</td><td><a class="link" href="https://live.athletictiming.net/meets/54378/events/individual/2064961" target="_blank" rel="noopener">12.30</a></td></tr>
+              <tr><td>100 m</td><td>Arizona Junior Olympics, meet record</td><td>1st</td><td><a class="link" href="https://athleticlive.nyc3.cdn.digitaloceanspaces.com/rawResults/54392/38b6e420220896e12a28a5279c2e067d.htm" target="_blank" rel="noopener">12.27</a></td></tr>
+              <tr><td>Long jump</td><td>Pioneer Meet, meet record</td><td>1st</td><td><a class="link" href="https://athleticlive.nyc3.cdn.digitaloceanspaces.com/rawResults/49652/1a1d19cb1c4a139f43949a8d49a75c37.htm" target="_blank" rel="noopener">5.22 m</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="results__note wrap">Marks link to the official result or ranking. Full history on <a class="link" href="https://www.athletic.net/athlete/16340968/track-and-field/all" target="_blank" rel="noopener">Athletic.net</a> and <a class="link" href="https://az.milesplit.com/athletes/12776709-l-hopkins" target="_blank" rel="noopener">MileSplit</a>.</p>
+      </section>
+
+      <!-- Football: close-up with the card -->
+      <section class="football" id="football" aria-labelledby="football-title">
+        <picture class="football__photo">
+          <source media="(max-width: 700px)" srcset="media/football-close-phone.webp" width="900" height="1500" />
+          <img src="media/football-close.webp" width="2400" height="1350" alt="L Hopkins holding out the front of her Xavier jersey to show the number 7." loading="lazy" />
+        </picture>
+        <div class="football__card" data-reveal>
+          <h2 class="football__name" id="football-title">Gators #7</h2>
+          <p class="football__variant">Xavier flag football, fall 2026</p>
+          <p class="football__fact"><strong>12 sacks</strong> and 78 punt-return yards in her first five games.</p>
+          <img class="football__whole" src="media/football-whole.webp" width="720" height="480" alt="L Hopkins standing with her arms crossed in her #7 jersey." loading="lazy" />
+          <p class="football__note">Family count. <a class="link" href="https://www.maxpreps.com/az/phoenix/xavier-college-prep-gators/athletes/l-hopkins/flag-football/girls/stats/?careerid=0vc08784mmi00" target="_blank" rel="noopener">MaxPreps</a> lists 10.</p>
+          <a class="button button--block" href="#film">Watch her play</a>
+        </div>
+      </section>
+
+      <!-- Three uniforms: the title holds, the portraits pass -->
+      <section class="uniforms" aria-labelledby="uniforms-title">
+        <div class="uniforms__pin">
+          <h2 class="uniforms__title" id="uniforms-title">Three uniforms</h2>
+        </div>
+        <div class="uniforms__people">
+          <article class="person person--left" data-reveal>
+            <img src="media/portrait-football.webp" width="1000" height="1250" alt="L Hopkins tossing a football toward the camera in her Xavier #7 jersey." loading="lazy" />
+            <h3 class="person__name">The pass rusher</h3>
+            <p class="person__role">Xavier Gators flag football, #7</p>
+            <p class="person__line">Lines up on defense and gets home. Twelve sacks across her first five games of the 2026 season, plus 78 yards on punt returns.</p>
+          </article>
+          <article class="person person--right" data-reveal>
+            <img class="person__cutout" src="media/portrait-school.webp" width="1000" height="1250" alt="L Hopkins in her Xavier College Preparatory uniform with her backpack." loading="lazy" />
+            <h3 class="person__name">The student</h3>
+            <p class="person__role">Xavier College Preparatory, Phoenix</p>
+            <p class="person__line">A freshman at Xavier, graduating with the Class of 2030. The track and the field come after the school day, not instead of it.</p>
+          </article>
+          <article class="person person--left" data-reveal>
+            <img class="person__cutout" src="media/portrait-track.webp" width="640" height="800" alt="L Hopkins in her racing kit and bib, walking off the track." loading="lazy" />
+            <h3 class="person__name">The sprinter</h3>
+            <p class="person__role">Tha Truth Track Tribe · sprints and long jump</p>
+            <p class="person__line">A national title, a national podium indoors and two meet records before her first day of high school. She ran 12.08 at Nike Nationals.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- The film -->
+      <section class="film" id="film" aria-labelledby="film-title">
+        <div class="film__intro wrap">
+          <h2 class="film__title" id="film-title" data-reveal>The film</h2>
+          <p class="film__lead" data-reveal>Don't take the results sheet's word for it. Under the lights with the Gators, out of the blocks at Nike, and the team she suits up with.</p>
+        </div>
+        <figure class="film__shot film__shot--top">
+          <video data-loop data-loop-end="31.4" muted playsinline loop preload="none" poster="media/montage-poster.jpg" aria-label="Highlights: Xavier flag football at night, sprints at the Phoenix Invitational and New Balance Nationals Indoor.">
+            <source src="media/montage.mp4" type="video/mp4" />
+          </video>
+          <figcaption>Highlights: flag football under the lights, the Phoenix Invitational and New Balance Nationals Indoor.</figcaption>
+        </figure>
+        <figure class="film__shot">
+          <picture>
+            <source media="(max-width: 700px)" srcset="media/team-phone.webp" width="900" height="1500" />
+            <img src="media/team.webp" width="2400" height="1350" alt="The 2026 Xavier Gators flag football team in their blue jerseys; L wears number 7." loading="lazy" />
+          </picture>
+          <figcaption>The 2026 Xavier Gators. She is number 7, third from the right.</figcaption>
+        </figure>
+        <figure class="film__shot film__shot--race">
+          <video data-race playsinline preload="none" poster="media/nike-poster.jpg" aria-label="2026 Nike Outdoor Nationals middle-school girls 100 metre final, with the original broadcast sound.">
+            <source src="media/nike-100m-final.mp4" type="video/mp4" />
+          </video>
+          <button class="film__play button" type="button" data-race-toggle aria-pressed="false">Play the race, sound on</button>
+          <figcaption>2026 Nike Outdoor Nationals, middle-school girls 100 m final. L in lane 2: fourth in 12.08.</figcaption>
+        </figure>
+      </section>
+
+      <!-- Contact: the clip-out coupon -->
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <form class="coupon" data-contact-form novalidate>
+          <div class="coupon__stub">
+            <h2 class="coupon__title" id="contact-title">Write to<br /> the family</h2>
+            <p class="coupon__lead">For coaches, recruiters and sponsors. Your message goes to L's parent, not to her phone.</p>
+          </div>
+          <div class="coupon__fields">
+            <label class="visually-hidden" for="c-name">Your name</label>
+            <input id="c-name" name="name" type="text" autocomplete="name" placeholder="Your name" required />
+            <label class="visually-hidden" for="c-email">Your email</label>
+            <input id="c-email" name="email" type="email" autocomplete="email" placeholder="Your email" required />
+            <label class="visually-hidden" for="c-org">School, club or company</label>
+            <input id="c-org" name="organisation" type="text" autocomplete="organization" placeholder="School, club or company" />
+            <label class="visually-hidden" for="c-message">Your message</label>
+            <textarea id="c-message" name="message" rows="3" placeholder="Your message" required></textarea>
+            <input class="visually-hidden" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <button class="coupon__send" type="submit">Send to the family</button>
+            <p class="coupon__status" role="status" data-contact-status></p>
+          </div>
+        </form>
+        <div class="contact__more wrap">
+          <p>Highlights and updates: <a class="link" href="https://www.instagram.com/l.h0pkins/" target="_blank" rel="noopener">@l.h0pkins on Instagram</a></p>
+          <p>Support her sports and education: <a class="link" href="https://cash.app/$LHopkins7" target="_blank" rel="noopener">$LHopkins7 on Cash App</a></p>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <p class="footer__what">L Hopkins · Xavier, Class of 2030</p>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#results">Results</a>
+        <a href="https://www.instagram.com/l.h0pkins/" target="_blank" rel="noopener">Instagram</a>
+        <a href="credits.html">Credits</a>
+        <button class="footer__motion" type="button" data-motion-toggle aria-pressed="false">Motion off</button>
+      </nav>
+      <p class="footer__year">© 2026 L Hopkins</p>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
