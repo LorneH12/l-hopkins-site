@@ -32,17 +32,17 @@ Few athletes this age have nationally ranked, officially sourced results: a 2025
 - Coaches arrive from emails, social links or recruiting lists, often on a phone, and give the site seconds.
 - Supporters arrive from Instagram (`@l.h0pkins`).
 - Contact channels each have one job:
-  - **Parent email:** the primary contact for coaches, sponsors and real interest.
+  - **Parent contact (private):** the primary contact for coaches, sponsors and real interest. The address is never published; visitors reach it through a contact form relayed by a form service (e.g. Web3Forms or Formspree), so only the service's public key appears in the site.
   - **Instagram (`@l.h0pkins`):** additional highlights, updates and following.
-  - **Cash App (`$LHopkins7`):** donations.
+  - **Cash App (`$LHopkins7`):** donations, which support L's sports and education.
 
 ## Capabilities and Constraints
 
-- Static site; no backend. Contact is a `mailto:`/visible parent email, not a form, unless a form service is chosen later.
+- Static site; no backend of its own. Parent contact is a form posted to a third-party form relay. No `mailto:` link, and the parent address must not appear anywhere in the repo, build output or page source.
 - L is a minor. The adult-owned email is the front door for strangers; never present Instagram DMs as the way to contact the family.
 - Stats are stated once, with the source; repeated disclaimers and reconciliation notes stay off the main page (a results/sources page may hold them).
 - No internal production notes in public copy ("rough preview", "placeholder", "alpha footage", likeness caveats).
-- **Open:** the parent email address; what donations fund; photo credit owner (the chatgpt.site version credited the team photo to "Pattysflicks").
+- Photo credit: most images are family-owned and need no credit. Credit others where the source is known, e.g. the team photo ("Pattysflicks", as on the chatgpt.site version) and any broadcast or event frames, on a credits page.
 
 ## Brand Commitments
 
