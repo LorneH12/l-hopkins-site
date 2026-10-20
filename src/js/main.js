@@ -17,7 +17,6 @@ import '../css/components/videos.css';
 import '../css/components/contact.css';
 import '../css/components/footer.css';
 
-import { initReveal } from './reveal.js';
 import { initCounters } from './counters.js';
 import { initVideos } from './videos.js';
 
@@ -25,6 +24,5 @@ document.documentElement.classList.add('js');
 
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-initReveal({ reducedMotion });
 initCounters({ reducedMotion });
 initVideos();

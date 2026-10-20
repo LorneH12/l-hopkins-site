@@ -22,7 +22,7 @@ export function about(site) {
   const a = site.about;
   return `
 <section class="about split" id="about" aria-labelledby="about-title">
-  <div class="cutout reveal">${photo(a.photo)}</div>
+  <div class="cutout">${photo(a.photo)}</div>
   <div class="copy">
     <p class="eyebrow">${esc(a.eyebrow)}</p>
     <h2 id="about-title">${lines(a.headline)}</h2>
@@ -131,6 +131,6 @@ export function contact(site) {
     <p class="eyebrow">${esc(c.eyebrow)}</p>
     <h2 id="contact-title">${lines(c.headline)}</h2>${blocks}
   </div>
-  <div class="cutout reveal">${photo(c.photo)}</div>
+  <div class="cutout">${photo(c.photo)}</div>
 </section>`;
 }

@@ -41,7 +41,6 @@ l-hopkins-site/
 │   │   └── components/      one file per part of the page (hero, results, videos…)
 │   └── js/
 │       ├── main.js          entry point: loads fonts, styles and the modules below
-│       ├── reveal.js        photos fade in on scroll
 │       ├── counters.js      numbers count up on scroll
 │       └── videos.js        only one video plays at a time
 ├── docs/
@@ -63,7 +62,7 @@ npm run build     # production build into dist/
 npm run preview   # preview the production build
 ```
 
-The page is plain HTML after the build: content is rendered at build time, so it reads correctly with JavaScript turned off. JavaScript only adds the scroll animations.
+The page is plain HTML after the build: content is rendered at build time, so it reads correctly with JavaScript turned off. JavaScript only adds the count-up numbers and keeps one video playing at a time.
 
 ## Media and credits
 
