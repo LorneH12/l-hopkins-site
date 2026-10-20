@@ -1,0 +1,34 @@
+[
+  {
+    "place": "1st",
+    "mark": "5.17",
+    "unit": "m",
+    "meet": "2025 USATF National Junior Olympics",
+    "detail": "Girls 13–14 long jump · July 25, 2025",
+    "links": [{ "label": "Official result", "href": "https://results.adkinstrak.com/meets/54731/events/individual/2109552" }]
+  },
+  {
+    "place": "4th",
+    "mark": "12.08",
+    "unit": "s",
+    "meet": "2026 Nike Outdoor Nationals",
+    "detail": "Middle school girls 100 m final · +0.3 m/s wind · June 22, 2026",
+    "links": [{ "label": "Official result", "href": "https://live.athletictiming.net/meets/74712/events/individual/2836029" }]
+  },
+  {
+    "place": "3rd",
+    "mark": "7.59",
+    "unit": "s",
+    "meet": "2026 New Balance Nationals Indoor",
+    "detail": "Middle school girls 60 m",
+    "links": [{ "label": "Official result", "href": "https://flashresults.com/2026_Meets/Indoor/03-12_NBIN/701-2_compiled.htm" }]
+  },
+  {
+    "place": "3rd",
+    "mark": "5.28",
+    "unit": "m",
+    "meet": "2026 New Balance Nationals Indoor",
+    "detail": "Middle school girls long jump",
+    "links": [{ "label": "Official result", "href": "https://flashresults.com/2026_Meets/Indoor/03-12_NBIN/723-1_compiled.htm" }]
+  }
+]

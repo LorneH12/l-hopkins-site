@@ -1,0 +1,44 @@
+[
+  {
+    "id": "football",
+    "number": "01",
+    "title": "Flag Football",
+    "headline": "12 sacks in five games.",
+    "summary": "L’s 2026 regular-season snapshot for Xavier College Preparatory.",
+    "stats": [
+      { "value": "12", "unit": "sacks", "label": "Defensive contribution" },
+      { "value": "2.4", "unit": "per game", "label": "Sacks across five games" },
+      { "value": "78", "unit": "yards", "label": "Punt returns" }
+    ],
+    "extra": "Also: 22 rushing yards and a 28-yard longest punt return.",
+    "source": "Family-reported statistics · 5 of 11 regular-season games · Through October 9, 2026",
+    "photo": { "src": "media/photos/football-ball-ready.webp", "alt": "L Hopkins in her Xavier number 7 jersey, holding a football", "width": 711, "height": 1206 }
+  },
+  {
+    "id": "student",
+    "number": "02",
+    "title": "Student / Scholar",
+    "headline": "Student. Mentor. Leader.",
+    "summary": "A Xavier College Preparatory student whose experience includes student government and mentoring preschool and kindergarten children.",
+    "stats": [
+      { "value": "2030", "unit": "", "label": "Graduating class" }
+    ],
+    "extra": "",
+    "source": "Leadership and service experience reported by family, May 2026",
+    "photo": { "src": "media/photos/school-standing.webp", "alt": "L Hopkins smiling in her Xavier school uniform with her backpack", "width": 371, "height": 1182 }
+  },
+  {
+    "id": "track",
+    "number": "03",
+    "title": "Track & Field",
+    "headline": "Record-setting speed and distance.",
+    "summary": "Girls 13–14 records in the 100 m and the long jump.",
+    "stats": [
+      { "value": "12.27", "unit": "s", "label": "Arizona Association Junior Olympic Championships 100 m record · June 15, 2025 · −0.3 m/s wind", "href": "https://athleticlive.nyc3.cdn.digitaloceanspaces.com/rawResults/54392/38b6e420220896e12a28a5279c2e067d.htm" },
+      { "value": "5.22", "unit": "m", "label": "Pioneer Meet long jump record · April 26, 2025", "href": "https://athleticlive.nyc3.cdn.digitaloceanspaces.com/rawResults/49652/1a1d19cb1c4a139f43949a8d49a75c37.htm" }
+    ],
+    "extra": "",
+    "source": "",
+    "photo": { "src": "media/photos/track-race-ready.webp", "alt": "L Hopkins on the track in her Truth Track Club uniform and Nike Outdoor Nationals bib", "width": 759, "height": 896 }
+  }
+]

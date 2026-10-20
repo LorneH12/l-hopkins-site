@@ -1,0 +1,32 @@
+{
+  "name": "L Hopkins",
+  "classOf": "2030",
+  "school": "Xavier College Preparatory",
+  "title": "L Hopkins · Class of 2030",
+  "description": "Meet L Hopkins, Class of 2030 at Xavier College Preparatory. Flag football, sprints and long jump.",
+  "hero": {
+    "eyebrow": "Xavier College Preparatory · Class of 2030",
+    "headline": ["One athlete.", "Every possibility."],
+    "intro": "On the field. In the classroom. On the track.",
+    "photo": { "src": "media/photos/track-hands-on-hips.webp", "alt": "L Hopkins at Nike Outdoor Nationals, hands on hips, wearing her race bib", "width": 725, "height": 831 }
+  },
+  "about": {
+    "eyebrow": "About me",
+    "headline": ["More than", "a single lane."],
+    "subtitle": "Flag football, sprints and long jump",
+    "paragraphs": [
+      "From Xavier College Preparatory to the flag-football field and the track, this is a place to follow L’s journey.",
+      "Explore competition results, moments from the season, and the next chapter as it takes shape."
+    ],
+    "photo": { "src": "media/photos/football-ball-forward.webp", "alt": "L Hopkins in her Xavier number 7 jersey, holding a football out toward the camera", "width": 521, "height": 1400 }
+  },
+  "contact": {
+    "eyebrow": "Be part of the next chapter",
+    "headline": ["Connect. Encourage.", "Support the journey."],
+    "links": [
+      { "heading": "Stay connected", "text": "Follow L’s journey on Instagram.", "label": "Instagram @l.h0pkins", "href": "https://www.instagram.com/l.h0pkins", "style": "solid" },
+      { "heading": "Support L", "text": "Contribute directly through the family’s Cash App.", "label": "Cash App · $LHopkins7", "href": "https://cash.app/$LHopkins7", "style": "outline" }
+    ],
+    "photo": { "src": "media/photos/school-smiling.webp", "alt": "L Hopkins smiling in her school uniform with her hands behind her back", "width": 470, "height": 1400 }
+  }
+}

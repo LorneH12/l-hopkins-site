@@ -1,0 +1,2 @@
+.about { background: linear-gradient(160deg, var(--paper), var(--paper-2)); color: var(--ink); }
+.about .copy > p:not(.eyebrow):not(.subtitle) { color: var(--ink-soft); }

@@ -1,0 +1,32 @@
+{
+  "featured": {
+    "title": "Season highlights",
+    "src": "media/video/season-highlights.mp4",
+    "poster": "media/video/season-highlights-poster.webp",
+    "descriptions": "media/video/season-highlights-descriptions.vtt",
+    "description": "Flag football at Perry and against Sandra Day O’Connor, sprinting at the Phoenix Invitational, New Balance Nationals Indoor, and a moment from Spanish class. This montage has no sound."
+  },
+  "library": [
+    {
+      "tag": "Flag football",
+      "title": "Xavier at Perry",
+      "text": "Game highlights with original sound.",
+      "src": "media/video/football-perry.mp4",
+      "poster": "media/video/football-perry-poster.webp"
+    },
+    {
+      "tag": "Track & field",
+      "title": "Nike 100 m final",
+      "text": "The 2026 Nike Outdoor Nationals middle school girls 100 m final: 4th in 12.08 s.",
+      "src": "media/video/track-nike-100m-final.mp4",
+      "poster": "media/video/track-nike-100m-final-poster.webp"
+    },
+    {
+      "tag": "Student life",
+      "title": "A moment in class",
+      "text": "A Spanish conversation exercise with a classmate. No sound.",
+      "src": "media/video/student-spanish-class.mp4",
+      "poster": "media/video/student-spanish-class-poster.webp"
+    }
+  ]
+}

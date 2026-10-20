@@ -1,0 +1,28 @@
+.chapters { background: var(--navy-2); padding-inline: 0 !important; }
+.chapters > .section-heading { padding-inline: var(--gutter); }
+.chapter-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: none !important; }
+.chapter { display: flex; flex-direction: column; }
+.chapter--football { background: linear-gradient(160deg, var(--green-2), var(--green)); }
+.chapter--student { background: linear-gradient(160deg, var(--blue-2), var(--blue)); }
+.chapter--track { background: linear-gradient(160deg, var(--paper), var(--paper-2)); color: var(--ink); }
+.chapter__photo {
+  height: 26rem; padding: 2.5rem 2rem 0; display: flex; justify-content: center; align-items: flex-end;
+  background: radial-gradient(ellipse at 50% 100%, rgb(255 255 255 / 0.18), transparent 70%);
+}
+.chapter__photo img { height: 100%; width: auto; object-fit: contain; }
+.chapter__body { padding: 2rem clamp(1.5rem, 3vw, 2.5rem) 3rem; display: flex; flex-direction: column; gap: 1rem; flex: 1; }
+.chapter__number { font-size: var(--text-xs); font-weight: 700; letter-spacing: 0.18em; opacity: 0.7; }
+.chapter h3 { font-size: clamp(2rem, 3vw, 3rem); }
+.chapter h4 { margin-top: 0.5rem; }
+.chapter__body > p { font-size: var(--text-sm); }
+.chapter__stats { display: grid; gap: 1rem; margin: 0.5rem 0; }
+.chapter__stats li { border-top: 1px solid currentColor; padding-top: 1rem; font-size: var(--text-sm); }
+.chapter__stats li { border-color: var(--line-light); }
+.chapter--track .chapter__stats li { border-color: var(--line-dark); }
+.chapter__stat { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.25rem, 3.5vw, 3.25rem); line-height: 1; margin-bottom: 0.4rem; }
+.chapter .source-note { margin-top: auto; padding-top: 1rem; }
+
+@media (max-width: 900px) {
+  .chapter-grid { grid-template-columns: 1fr; }
+  .chapter__photo { height: 22rem; }
+}

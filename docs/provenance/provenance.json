@@ -1,0 +1,161 @@
+{
+  "status": "Published prototype with three original-photo cutouts and three owner-selected edited replacements; rough hero unchanged",
+  "subject": "L Hopkins",
+  "github": {
+    "owner": "LorneH12",
+    "requestedRepository": "l-hopkins-next",
+    "visibility": "public",
+    "created": true,
+    "url": "https://github.com/LorneH12/l-hopkins-next",
+    "publicationApproval": "Owner approved visibility change after disclosure of source/media/notes/history exposure, 2026-10-19"
+  },
+  "canonicalNotion": "https://app.notion.com/p/3fdaae3a01ed81bc985eeee41d952020",
+  "hero": {
+    "libraryId": "libfile_b385a945073481918b38531119c8c964",
+    "editablePackage": "libfile_e363882ee60881919c787ba15add6e99",
+    "path": "assets/L-Hopkins-Three-Test-Loop-Rough-Cut-Review-v1.mp4",
+    "duration": 15.958,
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "sizeBytes": 8433197,
+    "generated": true,
+    "alpha": false,
+    "silent": true,
+    "approval": "user authorized rough site placeholder only",
+    "knownIssues": [
+      "Likeness and uniform deviations",
+      "Editorial reframing does not repair source anatomy",
+      "Not final alpha footage"
+    ],
+    "localBytesVerified": true,
+    "sha256": "42028356b9df0b2daf152e7e01ba253750caea2de7dab952061763d2ac880f6e",
+    "transfer": "Owner-downloaded native Library attachment; matching size/SHA256; copied from Downloads with original retained",
+    "playback": "One immediate permitted muted play request, preload auto in normal-motion mode; no decoded-frame startup dependency. Loop/playsinline retained, no visible hero controls. Reduced-motion zero attempts; rejected autoplay one attempt, no retry. Five other players unchanged.",
+    "staticFallback": "Existing branded CSS colors and text within video region while paused/unavailable; no image/poster or new media."
+  },
+  "portraits": {
+    "status": "Original-photo web exports: restrained alpha edge polish; visible RGB unchanged; alpha-zero RGB cleared",
+    "packageLibraryId": "libfile_f981133dbc688191a54dffa8caf6608f",
+    "packageSha256": "1a0216aa8929cebefcba10355c6a722b59e9140fa731762159ed41b3d1cd1420",
+    "manifest": "assets/original-six/provenance.json",
+    "mapping": {
+      "about": "Football-Outward-Free-Hand.png",
+      "accomplishments": "Track-Rear-Three-Quarter-IMG1970.png",
+      "football": "Football-Outward-Lowered-Arm.png",
+      "student": "School-Standing-IMG2523.png",
+      "track": "Track-Side-Walking-IMG1966.png",
+      "contact": "School-Street-IMG2542.png"
+    },
+    "knownLimitations": [
+      "First-pass fine-hair/edge fringe retained",
+      "Track originals are small thigh-cropped photos; no added lower body",
+      "Hoodie omitted because source clips head; standing school substituted",
+      "Source appearance unmodified; backgrounds adjusted only"
+    ],
+    "webExportManifest": "content/web-export-provenance.json",
+    "sourceManifestNote": "assets/original-six/provenance.json records original source package; current export hashes are in web-export-provenance.json"
+  },
+  "facts": [
+    {
+      "claim": "Class of 2030; Xavier College Preparatory",
+      "source": "canonical Notion and authorized coordination handoff"
+    },
+    {
+      "claim": "2025 USATF National JO girls 13\u00e2\u20ac\u201c14 long jump: 1st, 5.17 m, July 25 2025",
+      "source": "https://results.adkinstrak.com/meets/54731/events/individual/2109552",
+      "verification": "authorized team evidence; not independently opened here"
+    },
+    {
+      "claim": "2026 Nike Outdoor middle school girls 100m final: 4th, 12.08s, +0.3m/s, June 22",
+      "source": "https://live.athletictiming.net/meets/74712/events/individual/2836029",
+      "verification": "authorized team evidence; not independently opened here"
+    },
+    {
+      "claim": "12 sacks in 5 of 11 games through October 9, 2026",
+      "source": "family update; distinct from official ranking snapshot"
+    }
+  ],
+  "links": {
+    "instagram": "https://www.instagram.com/l.h0pkins",
+    "donation": "https://cash.app/$LHopkins7",
+    "donationAuthority": "direct owner statement: $LHopkins7 is her cash app",
+    "responseVerification": "pending"
+  },
+  "productionLessons": [
+    "Pause generation; preserve existing review outputs and editable assembly",
+    "Hard cuts avoid ghosting but can mismatch props",
+    "Camera movement must be inspected in pixels; body rotation is not equivalent",
+    "Cropping may remove edge defects, not internal anatomy or likeness drift",
+    "Opaque rough cut does not satisfy final alpha requirement"
+  ],
+  "licenses": "No paid template source; preserve original media rights",
+  "additionalMedia": {
+    "repository": "LorneH12/l-hopkins-athlete",
+    "commit": "49256a6cb660175b668e41a7f6e34899798e7eb0",
+    "scope": "Read-only media copy; no template code copied; older repository media is not claimed to equal v8 hosted assets",
+    "credits": "Original sound/visible creator and broadcaster credits preserved; source README retained",
+    "files": [
+      {
+        "path": "assets/video/l-hopkins-highlights-description.vtt",
+        "bytes": 750,
+        "sha256": "c3f253cb8ae7f2c904f68f9a3fac7adaf4a922be6770951a935f9ae4c51335aa"
+      },
+      {
+        "path": "assets/video/l-hopkins-highlights-poster.jpg",
+        "bytes": 125316,
+        "sha256": "55fcbac4f75c3ef28b22716152cc8f1ee84e8c3936053e40ea5edc3ad91805fe"
+      },
+      {
+        "path": "assets/video/l-hopkins-highlights-v1.mp4",
+        "bytes": 7369943,
+        "sha256": "0e0b12a321a4c7eba2fb72f5d797419becbbcde2a51c9b2d109e95b3756d57d8"
+      },
+      {
+        "path": "assets/video/nike-100m-final.mp4",
+        "bytes": 5319348,
+        "sha256": "42f0ccac1857dc11107590e52c7f3346a0a3042243ebc101b1327bef03046a11"
+      },
+      {
+        "path": "assets/video/perry-highlights.mp4",
+        "bytes": 4528644,
+        "sha256": "5c2d2974adbf59a1e280246971bf56507aaaaf5602bf14709917720256dfa0aa"
+      },
+      {
+        "path": "assets/video/README.txt",
+        "bytes": 303,
+        "sha256": "0907dc8455712fac6d015a4c9707c933c9ea9366e32f268db258dac76432476f"
+      },
+      {
+        "path": "assets/video/student-life.mp4",
+        "bytes": 424310,
+        "sha256": "7f8ce707108f6877b499d4065d453a3649b01f38f59f8ecbd59b65fd4c2ff917"
+      }
+    ],
+    "notes": [
+      "Montage and student excerpt are silent in this repository version",
+      "No added audio, newly edited excerpt, or athletic outcome claims"
+    ]
+  },
+  "copyUpdate": {
+    "authority": "Verified root evidence reconciliation, owner-authorized 2026-10-19",
+    "football": "Family-reported snapshot through October9 2026,5of11regular-season games played:12sacks,2.4pergame,78puntreturnyards,22rushingyards,longestpuntreturn28yards. No MaxPreps ranking association.",
+    "student": "Family-reported May2026 past student government and preschool/kindergarten mentoring experience; not a current Xavier office. No private-email details or private links published.",
+    "trackSources": [
+      "https://flashresults.com/2026_Meets/Indoor/03-12_NBIN/701-2_compiled.htm",
+      "https://flashresults.com/2026_Meets/Indoor/03-12_NBIN/723-1_compiled.htm",
+      "https://live.athletictiming.net/meets/74712/events/individual/2836029",
+      "https://results.adkinstrak.com/meets/54731/events/individual/2109552"
+    ]
+  },
+  "currentSelectedReplacements": {
+    "manifest": "content/selected-edited-provenance.json",
+    "overrides": [
+      "Accomplishments replaces Track-Rear-Three-Quarter-IMG1970.png",
+      "Contact replaces School-Street-IMG2542.png"
+    ],
+    "priorPending": "IMG1989 and IMG2541 requests superseded by owner selection",
+    "generatedOrEdited": true
+  },
+  "trackCardReplacement": "content/track-card-provenance.json"
+}

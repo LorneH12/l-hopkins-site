@@ -1,0 +1,11 @@
+.button {
+  display: inline-flex; align-items: center; gap: 0.75rem;
+  min-height: 3rem; padding: 0.8rem 1.5rem;
+  border-radius: var(--radius-pill);
+  font-weight: 700; font-size: var(--text-sm); text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.button:hover { transform: translateY(-2px); }
+.button--solid { background: var(--mint); color: var(--navy); }
+.button--outline { border: 1px solid currentColor; }
+.text-link { display: inline-block; font-weight: 700; }

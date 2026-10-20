@@ -1,0 +1,21 @@
+/* Page-level layout: sections, the two-column split and section headings. */
+main > section { position: relative; padding: var(--section-y) var(--gutter); }
+main > section > * { max-width: var(--max); margin-inline: auto; }
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: center;
+}
+.split > * { margin-inline: 0; }
+.copy { max-width: 40rem; }
+.copy > * + * { margin-top: 1.25rem; }
+.copy h2 { margin-top: 1.5rem; }
+
+.section-heading { text-align: center; margin-bottom: clamp(3rem, 6vw, 5rem); }
+.section-heading > * + * { margin-top: 1.25rem; }
+
+@media (max-width: 800px) {
+  .split { grid-template-columns: 1fr; }
+}

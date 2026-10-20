@@ -1,0 +1,18 @@
+.nav {
+  position: absolute; inset: 0 0 auto; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 1.25rem var(--gutter);
+}
+.nav nav { display: flex; align-items: center; gap: clamp(1rem, 3vw, 2.25rem); font-size: var(--text-sm); font-weight: 600; }
+.nav nav a { text-decoration: none; }
+.nav nav a:hover { text-decoration: underline; }
+.nav__cta { border: 1px solid var(--line-light); border-radius: var(--radius-pill); padding: 0.55rem 1.1rem; }
+.wordmark {
+  font-family: var(--font-display); font-weight: 800; font-size: 2rem;
+  line-height: 1; text-decoration: none; letter-spacing: -0.04em;
+}
+.wordmark span { color: var(--mint); }
+
+@media (max-width: 560px) {
+  .nav nav a:not(.nav__cta) { display: none; }
+}
