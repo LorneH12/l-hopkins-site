@@ -4,6 +4,8 @@ The athlete site for L Hopkins: flag football, student life, and track & field.
 
 Live site: https://lorneh12.github.io/l-hopkins-site/
 
+**New to this project?** Read [`docs/HANDOVER.md`](docs/HANDOVER.md) first. Decisions, approvals and status are tracked in Notion: https://app.notion.com/p/3ff0ca41bc738177b59cf0471151b02a
+
 ## Updating the site
 
 Most changes only need one JSON file in `src/content/`. Push to `main` and the site rebuilds and publishes by itself (about a minute).
@@ -42,7 +44,11 @@ l-hopkins-site/
 │       ├── reveal.js        photos fade in on scroll
 │       ├── counters.js      numbers count up on scroll
 │       └── videos.js        only one video plays at a time
-├── docs/provenance/         source and approval records for photos and videos
+├── docs/
+│   ├── HANDOVER.md          start here: rules, status, handover prompt
+│   ├── DECISIONS.md         decisions log (backup of Notion)
+│   ├── ASSETS.md            every photo and video, source and approval (backup of Notion)
+│   └── provenance/          original source and approval records
 └── .github/workflows/       automatic build and publish to GitHub Pages
 ```
 
