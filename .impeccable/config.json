@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T02:56:50.684Z",
+        "reason": "Claude: index.html's CSS is imported through src/main.js, which the HTML-only scan can't see; inspect.mjs measured the rendered sizes as 15/19/26/64/130/331px, so the step from body to display is far above 1.25x"
+      }
+    ]
+  }
+}
